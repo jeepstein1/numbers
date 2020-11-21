@@ -15,9 +15,9 @@ while [ "$num" -le "$NUMBER" ]
 do 
 	if [ "$NUMBER"%2=0 ]
 	then 
-		echo "$NUMBER Even"
+		echo "$num Even"
 	else
-		echo "$NUMBER Odd"
+		echo "$num Odd"
 	fi
 	num=$((num+1))
 done
