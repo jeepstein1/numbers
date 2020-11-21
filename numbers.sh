@@ -12,13 +12,13 @@ read NUMBER
 
 num=1
 while [ "$num" -le "$NUMBER" ]
-do 
-	if [ $((num%2)) -eq 0 ]
-	then 
-		echo "$num Even"
-	else
-		echo "$num Odd"
-	fi
-	num=$((num+1))
+do
+        if [ $((num%2)) -eq 0 ]
+        then
+                echo "$num Even"
+        else
+                echo "$num Odd"
+        fi
+        num=$((num+1))
 done
 
