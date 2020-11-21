@@ -13,10 +13,10 @@ read NUMBER
 num=1
 while [ "$num" -le "$NUMBER" ]
 do 
-	if [ "$NUMBER"%2=0 ]
+	if [ "$num"%2=0 ]
 	then 
 		echo "$num Even"
-	elif  [ "$NUMBER"%2=1 ]
+	elif  [ "$num"%2=1 ]
 	then
 		echo "$num Odd"
 	else
