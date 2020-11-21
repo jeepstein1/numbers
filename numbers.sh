@@ -19,6 +19,6 @@ do
 	else
 		echo "$NUMBER Odd"
 	fi
-	num=$(num+1)
+	num=$((num+1))
 done
 
