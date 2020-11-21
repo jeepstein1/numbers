@@ -16,11 +16,8 @@ do
 	if [ "$num"%2=0 ]
 	then 
 		echo "$num Even"
-	elif  [ "$num"%2=1 ]
-	then
-		echo "$num Odd"
 	else
-		echo "Invalid"
+		echo "$num Odd"
 	fi
 	num=$((num+1))
 done
