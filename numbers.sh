@@ -11,7 +11,7 @@ echo "Enter a positive number: "
 read NUMBER
 
 num=1
-while [ "$num" -le "$NUMBER"]
+while [ "$num" -le "$NUMBER" ]
 do 
 	if [ "$NUMBER"% =0 ]
 	then 
