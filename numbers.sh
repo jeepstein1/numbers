@@ -13,7 +13,7 @@ read NUMBER
 num=1
 while [ "$num" -le "$NUMBER" ]
 do 
-	if [ "$NUMBER"% =0 ]
+	if [ "$NUMBER"%2=0 ]
 	then 
 		echo "$NUMBER Even"
 	else
